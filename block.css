@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+.background_line {
+  background-image:url(bg.png);
+  background-repeat:repeat-x;
+  height:40px;
+}
+
+.kiseibuttons {
+  width:120px;
+  height:26px;
+  font-size:0.8em;
+  color:#000000;
+}
+
+.color0 {
+  color:#565656
+}  
+.color1 {
+  color:#666666;
+}
+.color2 {
+  color:#333333;
+}
+
+.font_size08 {
+  font-size:0.8em;
+}
+.font_size09 {
+  font-size:0.9em;
+}
+.font_size11 {
+  font-size:1.1em;
+}
+.font_size15 {
+  font-size:1.5em;
+}
+
+.font_bold {
+  font-weight:bold;
+}
+
+.align_center {
+  text-align:center;
+}
+.vertical_middle {
+  vertical-align:middle;
+}
+
+.padding_top10 {
+  padding-top:10px;
+}
+.padding_top30 {
+  padding-top:30px;
+}
+.margin_top20 {
+  margin-top:20px;
+}
+.margin_right5 {
+  margin-right:5px;
+}
+.margin_bottom5 {
+  margin-bottom:5px;
+}
+.margin_bottom10 {
+  margin-bottom:10px;
+}
+.margin_bottom20 {
+  margin-bottom:20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  margin-right:5px;
+}
+input[type="button"],
+input[type="submit"],
+input[type="text"],
+select {
+  vertical-align:middle;
+}
+
+.spacer20px {
+  height:20px;
+  width:20px;
+}
