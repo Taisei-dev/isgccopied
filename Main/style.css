@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+
+/* ---------------- PCとスマホ振り分け ----------------  */
+
+.sp{
+	display:none;	
+}
+.logo_img {
+	padding:30px 0;
+	width:700px;
+}
+#area01{
+	width:700px;
+	box-shadow:0 0 2px 1px rgba(0,0,0,0.5);
+	 }
+
+
+/* ---------------- PCとスマホ共通 ----------------  */
+
+body{
+	background: #ffffff;
+	/*
+	background:url(bg02.png;)no-repeat center 20px;
+	*/
+}
+#header{
+	margin:0 auto ;
+	overflow:hidden;
+}
+
+.logo_img {
+	margin:0 auto;
+	text-align:center;
+}
+
+#area01{
+	margin:0 auto ;
+	overflow:hidden;
+}
+
+
+#Msg{
+	margin:20px;
+	text-align:center;
+}
+
+#Msg_01{
+	font-weight:bold;
+	font-size:1.5em;
+}
+
+#Msg_02{
+	font-size:1.1em;
+}
+
+.box01{
+	margin:15px 10px;
+	padding:10px;
+	font-size:0.9em;
+	background-color:#ffffff;
+	box-shadow:0 0 2px 1px rgba(0,0,0,0.5);
+}
+.boxbg_01{
+	background: #ffffff url(boxbg_01.png)no-repeat 98% 50%;
+}
+.boxbg_02{
+	background: #ffffff url(boxbg_02.png)no-repeat 98% 50%;
+}
+.leftside{
+	margin-right:60px;
+}
+.boxttl {
+	margin:0 0 10px 0;
+	font-weight:bold;
+}
+#url{
+	word-break:break-all;	
+}
+#categoryName_jp{
+	margin:0 0 5px 0;
+	word-break:break-all;	
+}
+#categoryName_en{
+	word-break:break-all;	
+}
+
+#override{
+	position:relative;
+}
+#btn_override {
+    border: 0px;
+    width: 70px;
+    height:70px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	background: url(btn_override.png);
+	position:absolute;  bottom:-7px; right:-7px;
+}
+
+#dr_offer{
+	position:relative;
+}
+#btn_dr_offer {
+    border: 0px;
+    width: 70px;
+    height:70px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+    background: url(btn_dr_offer.png);
+	position:absolute;  bottom:-7px; right:-7px;
+}
+
+#offer{
+	position:relative;
+}
+#btn_offer {
+    border: 0px;
+    width: 70px;
+    height:70px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+    background: url(btn_offer.png);
+	position:absolute;  bottom:-7px; right:-7px;
+}
+
+textarea{
+	width:100%;	
+}
